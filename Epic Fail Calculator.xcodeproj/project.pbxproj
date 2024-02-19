@@ -12,6 +12,7 @@
 		642FB6A02B83625C007A367C /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642FB69F2B83625C007A367C /* Item.swift */; };
 		642FB6A22B836265007A367C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 642FB6A12B836265007A367C /* Assets.xcassets */; };
 		642FB6A52B836265007A367C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 642FB6A42B836265007A367C /* Preview Assets.xcassets */; };
+		642FB6AD2B8363A1007A367C /* GPACalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642FB6AC2B8363A1007A367C /* GPACalculatorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		642FB6A12B836265007A367C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		642FB6A42B836265007A367C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		642FB6A62B836265007A367C /* Epic_Fail_Calculator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Epic_Fail_Calculator.entitlements; sourceTree = "<group>"; };
+		642FB6AC2B8363A1007A367C /* GPACalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPACalculatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				642FB69B2B83625C007A367C /* Epic_Fail_CalculatorApp.swift */,
 				642FB69D2B83625C007A367C /* ContentView.swift */,
 				642FB69F2B83625C007A367C /* Item.swift */,
+				642FB6AC2B8363A1007A367C /* GPACalculatorView.swift */,
 				642FB6A12B836265007A367C /* Assets.xcassets */,
 				642FB6A62B836265007A367C /* Epic_Fail_Calculator.entitlements */,
 				642FB6A32B836265007A367C /* Preview Content */,
@@ -142,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				642FB6AD2B8363A1007A367C /* GPACalculatorView.swift in Sources */,
 				642FB69E2B83625C007A367C /* ContentView.swift in Sources */,
 				642FB6A02B83625C007A367C /* Item.swift in Sources */,
 				642FB69C2B83625C007A367C /* Epic_Fail_CalculatorApp.swift in Sources */,
