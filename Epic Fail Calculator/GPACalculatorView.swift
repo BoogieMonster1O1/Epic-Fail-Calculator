@@ -38,18 +38,24 @@ struct GPACalculatorView: View {
                     TextField("Subject", text: $entry.name)
                         .textFieldStyle(.roundedBorder)
                 }
+                .alignment(.center)
                 TableColumn("Credits") { $entry in
                     TextField("Credits", value: $entry.credits, formatter: NumberFormatter())
                         .textFieldStyle(.roundedBorder)
                 }
+                .width(50)
+                .alignment(.center)
                 TableColumn("Uncertain") { $entry in
                     Toggle("", isOn: $entry.uncertain)
                 }
-                .width(100)
+                .width(80)
+                .alignment(.center)
                 TableColumn("Grade Point Max") { $entry in
                     TextField("Grade Point Max", value: $entry.gradePointMax, formatter: NumberFormatter())
                         .textFieldStyle(.roundedBorder)
                 }
+                .width(100)
+                .alignment(.center)
                 TableColumn("Grade Point Min") { $entry in
                     if entry.uncertain {
                         TextField("Grade Point Min", value: $entry.gradePointMin, formatter: NumberFormatter())
@@ -58,8 +64,10 @@ struct GPACalculatorView: View {
                         Text("N/A")
                     }
                 }
+                .width(100)
+                .alignment(.center)
             }
-            .frame(maxHeight: 300)
+            .frame(idealHeight: 300)
             
             if results != nil {
                 if let results = results {
